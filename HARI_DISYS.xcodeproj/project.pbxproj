@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4777090E27A3FCD200D5786A /* APICalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777090D27A3FCD200D5786A /* APICalls.swift */; };
+		4777091027A405B100D5786A /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777090F27A405B100D5786A /* UsersListViewController.swift */; };
+		47AAC25927A307840039ADB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AAC25827A307840039ADB4 /* AppDelegate.swift */; };
+		47AAC25B27A307840039ADB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AAC25A27A307840039ADB4 /* SceneDelegate.swift */; };
+		47AAC25D27A307840039ADB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AAC25C27A307840039ADB4 /* ViewController.swift */; };
+		47AAC26027A307840039ADB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AAC25E27A307840039ADB4 /* Main.storyboard */; };
+		47AAC26227A307850039ADB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47AAC26127A307850039ADB4 /* Assets.xcassets */; };
+		47AAC26527A307850039ADB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47AAC26327A307850039ADB4 /* LaunchScreen.storyboard */; };
+		47AAC27027A307860039ADB4 /* HARI_DISYSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AAC26F27A307860039ADB4 /* HARI_DISYSTests.swift */; };
+		47AAC27B27A307860039ADB4 /* HARI_DISYSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AAC27A27A307860039ADB4 /* HARI_DISYSUITests.swift */; };
+		47AAC28927A307A40039ADB4 /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AAC28827A307A40039ADB4 /* CreateUserViewController.swift */; };
+		47AAC28B27A30A600039ADB4 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47AAC28A27A30A600039ADB4 /* APIManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47AAC26C27A307860039ADB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47AAC24D27A307840039ADB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47AAC25427A307840039ADB4;
+			remoteInfo = HARI_DISYS;
+		};
+		47AAC27727A307860039ADB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47AAC24D27A307840039ADB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47AAC25427A307840039ADB4;
+			remoteInfo = HARI_DISYS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4777090D27A3FCD200D5786A /* APICalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICalls.swift; sourceTree = "<group>"; };
+		4777090F27A405B100D5786A /* UsersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersListViewController.swift; sourceTree = "<group>"; };
+		47AAC25527A307840039ADB4 /* HARI_DISYS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HARI_DISYS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AAC25827A307840039ADB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47AAC25A27A307840039ADB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47AAC25C27A307840039ADB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47AAC25F27A307840039ADB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47AAC26127A307850039ADB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47AAC26427A307850039ADB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47AAC26627A307850039ADB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AAC26B27A307860039ADB4 /* HARI_DISYSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HARI_DISYSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AAC26F27A307860039ADB4 /* HARI_DISYSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HARI_DISYSTests.swift; sourceTree = "<group>"; };
+		47AAC27127A307860039ADB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AAC27627A307860039ADB4 /* HARI_DISYSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HARI_DISYSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AAC27A27A307860039ADB4 /* HARI_DISYSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HARI_DISYSUITests.swift; sourceTree = "<group>"; };
+		47AAC27C27A307860039ADB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47AAC28827A307A40039ADB4 /* CreateUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
+		47AAC28A27A30A600039ADB4 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47AAC25227A307840039ADB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AAC26827A307860039ADB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AAC27327A307860039ADB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		479E6EA527A47D9700C4D76D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4777090D27A3FCD200D5786A /* APICalls.swift */,
+				47AAC28A27A30A600039ADB4 /* APIManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		479E6EA627A47DA500C4D76D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				47AAC25C27A307840039ADB4 /* ViewController.swift */,
+				4777090F27A405B100D5786A /* UsersListViewController.swift */,
+				47AAC28827A307A40039ADB4 /* CreateUserViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		47AAC24C27A307840039ADB4 = {
+			isa = PBXGroup;
+			children = (
+				47AAC25727A307840039ADB4 /* HARI_DISYS */,
+				47AAC26E27A307860039ADB4 /* HARI_DISYSTests */,
+				47AAC27927A307860039ADB4 /* HARI_DISYSUITests */,
+				47AAC25627A307840039ADB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47AAC25627A307840039ADB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47AAC25527A307840039ADB4 /* HARI_DISYS.app */,
+				47AAC26B27A307860039ADB4 /* HARI_DISYSTests.xctest */,
+				47AAC27627A307860039ADB4 /* HARI_DISYSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47AAC25727A307840039ADB4 /* HARI_DISYS */ = {
+			isa = PBXGroup;
+			children = (
+				47AAC25827A307840039ADB4 /* AppDelegate.swift */,
+				47AAC25A27A307840039ADB4 /* SceneDelegate.swift */,
+				479E6EA627A47DA500C4D76D /* ViewControllers */,
+				479E6EA527A47D9700C4D76D /* API */,
+				47AAC25E27A307840039ADB4 /* Main.storyboard */,
+				47AAC26127A307850039ADB4 /* Assets.xcassets */,
+				47AAC26327A307850039ADB4 /* LaunchScreen.storyboard */,
+				47AAC26627A307850039ADB4 /* Info.plist */,
+			);
+			path = HARI_DISYS;
+			sourceTree = "<group>";
+		};
+		47AAC26E27A307860039ADB4 /* HARI_DISYSTests */ = {
+			isa = PBXGroup;
+			children = (
+				47AAC26F27A307860039ADB4 /* HARI_DISYSTests.swift */,
+				47AAC27127A307860039ADB4 /* Info.plist */,
+			);
+			path = HARI_DISYSTests;
+			sourceTree = "<group>";
+		};
+		47AAC27927A307860039ADB4 /* HARI_DISYSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47AAC27A27A307860039ADB4 /* HARI_DISYSUITests.swift */,
+				47AAC27C27A307860039ADB4 /* Info.plist */,
+			);
+			path = HARI_DISYSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47AAC25427A307840039ADB4 /* HARI_DISYS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AAC27F27A307860039ADB4 /* Build configuration list for PBXNativeTarget "HARI_DISYS" */;
+			buildPhases = (
+				47AAC25127A307840039ADB4 /* Sources */,
+				47AAC25227A307840039ADB4 /* Frameworks */,
+				47AAC25327A307840039ADB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HARI_DISYS;
+			productName = HARI_DISYS;
+			productReference = 47AAC25527A307840039ADB4 /* HARI_DISYS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47AAC26A27A307860039ADB4 /* HARI_DISYSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AAC28227A307860039ADB4 /* Build configuration list for PBXNativeTarget "HARI_DISYSTests" */;
+			buildPhases = (
+				47AAC26727A307860039ADB4 /* Sources */,
+				47AAC26827A307860039ADB4 /* Frameworks */,
+				47AAC26927A307860039ADB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47AAC26D27A307860039ADB4 /* PBXTargetDependency */,
+			);
+			name = HARI_DISYSTests;
+			productName = HARI_DISYSTests;
+			productReference = 47AAC26B27A307860039ADB4 /* HARI_DISYSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47AAC27527A307860039ADB4 /* HARI_DISYSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AAC28527A307860039ADB4 /* Build configuration list for PBXNativeTarget "HARI_DISYSUITests" */;
+			buildPhases = (
+				47AAC27227A307860039ADB4 /* Sources */,
+				47AAC27327A307860039ADB4 /* Frameworks */,
+				47AAC27427A307860039ADB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47AAC27827A307860039ADB4 /* PBXTargetDependency */,
+			);
+			name = HARI_DISYSUITests;
+			productName = HARI_DISYSUITests;
+			productReference = 47AAC27627A307860039ADB4 /* HARI_DISYSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47AAC24D27A307840039ADB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					47AAC25427A307840039ADB4 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					47AAC26A27A307860039ADB4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 47AAC25427A307840039ADB4;
+					};
+					47AAC27527A307860039ADB4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 47AAC25427A307840039ADB4;
+					};
+				};
+			};
+			buildConfigurationList = 47AAC25027A307840039ADB4 /* Build configuration list for PBXProject "HARI_DISYS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47AAC24C27A307840039ADB4;
+			productRefGroup = 47AAC25627A307840039ADB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47AAC25427A307840039ADB4 /* HARI_DISYS */,
+				47AAC26A27A307860039ADB4 /* HARI_DISYSTests */,
+				47AAC27527A307860039ADB4 /* HARI_DISYSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47AAC25327A307840039ADB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AAC26527A307850039ADB4 /* LaunchScreen.storyboard in Resources */,
+				47AAC26227A307850039ADB4 /* Assets.xcassets in Resources */,
+				47AAC26027A307840039ADB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AAC26927A307860039ADB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AAC27427A307860039ADB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47AAC25127A307840039ADB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AAC25D27A307840039ADB4 /* ViewController.swift in Sources */,
+				47AAC25927A307840039ADB4 /* AppDelegate.swift in Sources */,
+				4777090E27A3FCD200D5786A /* APICalls.swift in Sources */,
+				4777091027A405B100D5786A /* UsersListViewController.swift in Sources */,
+				47AAC28B27A30A600039ADB4 /* APIManager.swift in Sources */,
+				47AAC25B27A307840039ADB4 /* SceneDelegate.swift in Sources */,
+				47AAC28927A307A40039ADB4 /* CreateUserViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AAC26727A307860039ADB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AAC27027A307860039ADB4 /* HARI_DISYSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AAC27227A307860039ADB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AAC27B27A307860039ADB4 /* HARI_DISYSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47AAC26D27A307860039ADB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47AAC25427A307840039ADB4 /* HARI_DISYS */;
+			targetProxy = 47AAC26C27A307860039ADB4 /* PBXContainerItemProxy */;
+		};
+		47AAC27827A307860039ADB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47AAC25427A307840039ADB4 /* HARI_DISYS */;
+			targetProxy = 47AAC27727A307860039ADB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47AAC25E27A307840039ADB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AAC25F27A307840039ADB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47AAC26327A307850039ADB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AAC26427A307850039ADB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47AAC27D27A307860039ADB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47AAC27E27A307860039ADB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47AAC28027A307860039ADB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HARI_DISYS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.indium.swiftui.HARI-DISYS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47AAC28127A307860039ADB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HARI_DISYS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.indium.swiftui.HARI-DISYS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47AAC28327A307860039ADB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HARI_DISYSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.indium.swiftui.HARI-DISYSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HARI_DISYS.app/HARI_DISYS";
+			};
+			name = Debug;
+		};
+		47AAC28427A307860039ADB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HARI_DISYSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.indium.swiftui.HARI-DISYSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HARI_DISYS.app/HARI_DISYS";
+			};
+			name = Release;
+		};
+		47AAC28627A307860039ADB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HARI_DISYSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.indium.swiftui.HARI-DISYSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HARI_DISYS;
+			};
+			name = Debug;
+		};
+		47AAC28727A307860039ADB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HARI_DISYSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.indium.swiftui.HARI-DISYSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HARI_DISYS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47AAC25027A307840039ADB4 /* Build configuration list for PBXProject "HARI_DISYS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AAC27D27A307860039ADB4 /* Debug */,
+				47AAC27E27A307860039ADB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47AAC27F27A307860039ADB4 /* Build configuration list for PBXNativeTarget "HARI_DISYS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AAC28027A307860039ADB4 /* Debug */,
+				47AAC28127A307860039ADB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47AAC28227A307860039ADB4 /* Build configuration list for PBXNativeTarget "HARI_DISYSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AAC28327A307860039ADB4 /* Debug */,
+				47AAC28427A307860039ADB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47AAC28527A307860039ADB4 /* Build configuration list for PBXNativeTarget "HARI_DISYSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AAC28627A307860039ADB4 /* Debug */,
+				47AAC28727A307860039ADB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47AAC24D27A307840039ADB4 /* Project object */;
+}
